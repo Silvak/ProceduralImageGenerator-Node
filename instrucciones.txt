@@ -1,0 +1,75 @@
+________________________________________________________________________________________________________________________________
+                                                                                                                                |                                                                                             |
+APP                                                                                                                             |                                                                                                                                                    |
+________________________________________________________________________________________________________________________________|
+
+1️⃣CORRER APLICACIÓN 
+  -> Entrar en la carpeta app.
+  -> Ejecutar app.exe (abrirá una consola de comandos).
+  -> En la consola de comandos verás un menú como este donde podrás elegir la acción a realizar.
+	__________________________________
+	|  1 = Config Capas y Carpetas   |
+	|  2 = Genrar coleccion          |
+	|  3 = Chequear duplicados       |
+	|  4 = Salir                     |
+	|________________________________|
+
+	Selecciona la opcion:
+  
+  -> Selecciona la opción que deseas ejecutar ingresando un número (1, 2, 3, 4).
+  -> Luego de ejecutar cada opción la ventana se cerrara y tendrás que volver a abrir app.exe
+  -> NOTA: Los pasos para ejecutar el programa de manera validad, son elegir la opción de forma progresiva (1, 2 y luego 3).
+
+
+2️⃣CAMBIAR TAMAÑO DE COLECCIÓN
+  -> Entrar en la carpeta app.
+  -> Abrir app.js con el bloc de notas.
+  -> En la línea 13 estará esta código ( const quantity = 1000; //<<<<<<<<<<< cantidad de NFTs <<<<<<<<<<<<<<< )
+  -> Cambiar número 1000 a la cantidad deseada de NFTs a generar.
+
+
+
+
+________________________________________________________________________________________________________________________________
+                                                                                                                                |
+REGLAS A TENER EN CUENTA PARA CARPETAS-IMAGENES                                                                                 |
+________________________________________________________________________________________________________________________________|
+
+1️⃣LAYERS//CAPAS
+  -> Las carpetas solo deben tener números y letras en su nombre, no deben contener espacios.
+  -> Especificar el orden de la carpeta con un número.
+
+   Ejemplo:
+	{
+	  📂1Fondo
+	  📂2Cuerpo
+	  📂3Ropa
+	  📂4Bocas
+	  📂5Sombrero
+	  📂6Ojos
+	  📂...		
+	}
+
+
+2️⃣IMAGENES
+  -> Solo se aceptan extensión .png como formato de imagen.
+  -> El nombre de las imágenes no deben contener espacios o caracteres especiales, deben ser caracteres numéricos o solo letras.
+  
+  Ejemplo nombres válidos:
+      {
+        🖼️fondoAnaranjado.png
+	  🖼️camsisa01.png
+        🖼️1.png
+        🖼️1a.png
+        🖼️sombrero.png
+      }
+
+
+
+
+
+
+
+
+
+.

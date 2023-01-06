@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js",
+    "check": "node check.js"
+  },
+  "dependencies": {
+    "canvas": "^2.10.1",
+    "merge-images": "^2.0.0",
+    "random-images": "^1.0.0",
+    "random-js": "^2.1.0",
+    "readline-sync": "^1.4.10",
+    "sha1": "^1.1.1"
+  },
+  "pkg": {
+    "scripts": [
+      "build/**/*.js"
+    ],
+    "assets": [
+      "views/**/*",
+      "layers/**/*"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
